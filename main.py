@@ -69,7 +69,7 @@ def create_model():
 model = create_model()
 
 
-epochs=100
+epochs=10000
 model.fit(
   train_ds,
   validation_data=val_ds,
